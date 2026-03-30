@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://car-price-pred-2.onrender.com/api";
 const fmt = n => "₹" + Number(n).toLocaleString("en-IN");
 
 const condBadge = c => {

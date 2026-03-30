@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://car-price-pred-2.onrender.com/api";;
 
 const MODELS = {
   "Maruti Suzuki": ["Swift","Baleno","Wagon R","Alto","Dzire","Brezza","Ertiga"],

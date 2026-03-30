@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://car-price-pred-2.onrender.com/api";
 const fmt = n => "₹" + Number(n).toLocaleString("en-IN");
 
 const COLORS = ["#e8d5a3","#c4a35a","#6dbf8a","#7eb8e0","#e07060","#b388dd","#f0a070","#70c8c0"];
