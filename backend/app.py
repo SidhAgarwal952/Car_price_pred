@@ -92,11 +92,8 @@ def train():
     joblib.dump(encoders, ENCODERS_PATH)
     return model, encoders
 
-if os.path.exists(MODEL_PATH) and os.path.exists(ENCODERS_PATH):
-    model    = joblib.load(MODEL_PATH)
-    encoders = joblib.load(ENCODERS_PATH)
-else:
-    model, encoders = train()
+# Always train fresh on startup
+model, encoders = train()
 
 
 # ─── Routes ───────────────────────────────────────────────────────────────────

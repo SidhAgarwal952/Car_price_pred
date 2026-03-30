@@ -1,0 +1,5 @@
+venv/
+model.joblib
+encoders.joblib
+__pycache__/
+*.pyc
